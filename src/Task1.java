@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Task1 {
@@ -8,7 +9,7 @@ public class Task1 {
         String[] wordsArray = text.split(" ");
         String simplifiedText = "";
         for(String it: wordsArray){
-            simplifiedText = textSimplifier(it)+ " ";
+            simplifiedText += textSimplifier(it)+ " ";
         }
         System.out.println(simplifiedText);
 
